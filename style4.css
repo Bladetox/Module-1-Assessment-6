@@ -1,0 +1,131 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 20px;
+    background-image: url(images/bubble%20background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 65px;
+    width: 100%;
+}
+
+header{
+    background-image: url(images/background%20header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    height: 110px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li{
+    margin-right: 150px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover{
+    color: black;
+}
+
+h2{
+    font-size: 40px;
+    color: dodgerblue;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.contact-section {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.map {
+    margin-top: 40px;
+}
+
+iframe {
+    border: 0;
+}
+
+.contact-form{
+    width: 400px;
+    margin: 20px auto;
+    align-content: 50%;
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-top: 10px;
+    color: #555;
+}
+
+input, textarea{
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    background-color: #0088CC;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #006699;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,135 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 20px;
+    background-image: url(images/bubble%20background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 65px;
+    width: 100%;
+}
+
+header{
+    background-image: url(images/background%20header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    height: 110px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li{
+    margin-right: 150px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover{
+    color: black;
+}
+
+h1{
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-size: 40px;
+    color: dodgerblue;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.about-section{
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 5px;
+    text-align: center;
+}
+    
+.about-section h3{
+    color: #0088CC;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about-section p {
+    line-height: 1.5;
+    
+}
+
+.about-section ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-section li {
+    flex: 0 0 48%; 
+    margin-bottom: 20px;
+}
+
+.about-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.Meet-Our-Team{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.team-member{
+    text-align: center; 
+    margin: 0 20px;
+}
+
+.team-member img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+
+
+
+

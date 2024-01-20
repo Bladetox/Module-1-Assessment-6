@@ -1,0 +1,104 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image: url(images/bubble%20background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    padding-top: 140px;
+    width: 100%;
+}
+
+header{
+    background-image: url(images/background%20header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    max-height: 110px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li{
+    margin-right: 150px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover{
+    color: black;
+}
+
+.center-content{
+    text-align: center;
+}
+
+.header-content{
+    padding-bottom: 50px;
+}
+
+.cta-button{
+   position: absolute;
+    top: 79%;
+    right: 27%;
+    border: 3px solid dodgerblue;
+    transform: translateY(-50%);
+}
+
+.cta-button a{
+    display: inline-block;
+    padding: 10px 60px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button a:hover{
+    background-color: dodgerblue;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

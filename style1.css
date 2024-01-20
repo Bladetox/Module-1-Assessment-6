@@ -1,0 +1,101 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image: url(images/bubble%20background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 25px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+header{
+    background-image: url(images/background%20header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    height: 110px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li{
+    margin-right: 150px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover{
+    color: black;
+}
+}
+h1{
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-size: 40px;
+    color: dodgerblue;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.gallery{
+    display: inline-block;
+    margin: 40px;
+}
+
+.buy-now{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery h2{
+    margin-top: 10px;
+    
+}
+
+.gallery img{
+    max-width: 100%;
+    
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+
+
+
+

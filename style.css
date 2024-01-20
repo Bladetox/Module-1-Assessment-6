@@ -1,0 +1,187 @@
+body{
+    font-family: Arial, sans-serif;
+    background-image: url(images/bubble%20background.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-bottom: 65px;
+    padding-top: 115px;
+    width: 100%;
+   
+    
+}
+
+header{
+    background-image: url(images/background%20header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    max-height: 110px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li{
+    margin-right: 150px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover{
+    color: black;
+}
+
+h2{
+    font-family: Impact, fantasy;
+    font-size: 40px;
+    color: dodgerblue;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+
+h4{
+    text-decoration: underline;
+}
+
+.product-container{
+    max-width: 100%;
+    display:flex;
+    align-items:center;
+    
+}
+
+.product-image{
+    max-width: 100%;
+    height: auto;
+    margin-left: 275px;
+}
+
+
+.buy-now-block{
+    max-width: 250px;
+    background-color: black;
+    color: #FFFFFF;
+    padding: 1rem;
+    padding-right: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: 130px;
+    float:right;
+}
+
+.section-line{
+    border: none;
+    border-top: 1px solid #FFFFFF;
+    margin: 10px 0;
+}
+.quantity-container{
+    margin-top: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.quantity-container label{
+    margin-right: 0.5rem;
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #1E90FF;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.quantity-container input{
+    margin-right: 0.5rem;
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.add-to-cart-button{
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dodgerblue;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.add-to-cart-button:hover{
+    border-radius: 25px;
+}
+
+.add-to-cart-button img{
+    width: 45px;
+    margin-right: 0.5rem;
+}
+
+.add-to-cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.images1{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+images1 img{
+    max-width: 100%;
+    height: auto;
+}
+
+.features-box{
+    padding: 1rem;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
